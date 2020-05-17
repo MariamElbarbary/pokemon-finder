@@ -1,0 +1,7 @@
+.scroll {
+    overflow: scroll;
+    /* border: 1px; */
+    height: 80vh;
+    margin: 10px;
+
+}
