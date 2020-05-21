@@ -7,15 +7,17 @@
   padding: 20px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
   background-color: #caecf3;
+  text-align: center;
 }
 
 .poke-cell:hover {
     transform: scale(1.1);
     border: 1px solid black;
-    cursor: pointer;
 }
 
-p:hover {
+Link:hover {
   text-decoration: underline;
   color: blue;
+  cursor: pointer;
+
 }
