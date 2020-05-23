@@ -4,7 +4,7 @@ import PokeList from './components/PokeList'
 import SearchBox from './components/SearchBox'
 import Scroll from './components/Scroll'
 import PagButton from './components/PagButton'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Route, BrowserRouter as Router } from 'react-router-dom'
 import PokeDetails from './components/PokeDetails'
 //TODO improve search and add sort functionality
 
@@ -74,7 +74,6 @@ class App extends Component {
   }
 
   render() {
-
     return (
       <Router>
         <div>
